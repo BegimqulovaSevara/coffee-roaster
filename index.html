@@ -4,14 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS-starter</title>
+    <!-- Foonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Styles  -->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
-
+    <!-- HEADER CONTENT -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="site-logo-div">
+                <img class="site-logo" src="./img/cofee-logo.svg" alt="" width="24px" height="24px">
+                <img class="site-logo" src="./img/coffeeroasters.svg" alt="" width="203px" height="24px">
+            </div>
+            <nav class="navigation">
+                <ul class="navlist">
+                    <li class="navlist-item"><a class="navlist-item-link" href="#">Home</a></li>
+                    <li class="navlist-item"><a class="navlist-item-link" href="#">About us</a></li>
+                    <li class="navlist-item"><a class="navlist-item-link" href="#">Create your plan</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-container container">
+                <div class="create-plan">
+                    <h2 class="create-plan-title">
+                        Good coffee <br>is made simply.
+                    </h2>
+                    <p class="creat-plan-paragraph">
+                        Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.
+                    </p>
+                    <a class="creat-plan-butoon" href="#">
+                        Create your plan
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="./js/main.js"></script>
 </body>
 </html>

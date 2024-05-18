@@ -1,3 +1,8 @@
+:root{
+  --brand-color:#333333;
+  --white-color:#FFFFFF;
+  --fon-color:#F3D7B7;
+}
 /* GLOBAL */
 html {
     box-sizing: border-box;
@@ -17,7 +22,7 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Arial", sans-serif;
+    font-family: "Roboto" "Arial", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     background-color: #fff;
@@ -33,7 +38,7 @@ img {
   /* CONTAINER */
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1440px;
     padding-left: 50px;
     padding-right: 50px;
     margin-left: auto;
@@ -45,3 +50,72 @@ img {
 .main-content {
     flex-grow: 1;
     }
+
+/* HEADER  */
+.header {
+  background-color:var(--fon-color);
+}
+.header-container {
+  height: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navlist {
+  display: flex;
+  list-style: none;
+}
+.navlist-item {
+}
+.navlist-item:not(:last-child){
+  margin-right: 40px;
+}
+.navlist-item-link {
+  text-decoration: none;
+  color: var(--brand-color);
+}
+
+/* MAIN-CONTENT */
+
+/* HERO SECTION */
+.hero {
+  background-color: var(--fon-color);
+  background-image: url(../img/glass-of-cofee.jpg);
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 410px) bottom;
+}
+.hero-container {
+  height: 696px;
+  display: flex;
+}
+.create-plan {
+  width: 464px;
+  height: 331px;
+  margin-top: 156px;
+  margin-left: 150px;
+}
+.create-plan-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+}
+.creat-plan-paragraph {
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+.creat-plan-butoon {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border: 0;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: #0A775F;
+}
