@@ -85,9 +85,6 @@ img {
 /* HERO SECTION */
 .hero {
   background-color: var(--fon-color);
-  background-image: url(../img/glass-of-cofee.jpg);
-  background-repeat: no-repeat;
-  background-position: left calc(50% + 410px) bottom;
 }
 .hero-container {
   height: 696px;
@@ -121,6 +118,13 @@ img {
   text-transform: uppercase;
   color: var(--white-color);
   background-color: #0A775F;
+}
+.hero-img{
+  width: 710px;
+  height: 696px;
+  padding: 0;
+  margin-left: 130px;
+  margin-right: -120px;
 }
 
 /* PROMO SECTION */
