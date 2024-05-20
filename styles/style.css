@@ -238,13 +238,19 @@ img {
 
 /* HOW-IT-WORKS SECTION */
 .how-it-works {
+  margin-bottom: 50px;
 }
 .how-it-works-container{
+  text-align: center;
   background-color: var(--green-fon);
   background-image: url(../img/fon-img.png);
   color: var(--white-color);
 }
 .how-it-works-title {
+  padding-top: 50px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
 }
 .block-roll{
   width: 966px;
@@ -265,6 +271,7 @@ img {
 
 }
 .how-it-works-list {
+  text-align: start;
   margin: 0;
   margin-top: 20px;
   padding: 0;
@@ -283,16 +290,37 @@ img {
   margin-right: 20px;
 }
 .number-title {
+  height: 75px;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+  display: flex;
+  justify-content: end;
+  opacity: 80%;
 }
 .how-it-works-item-title {
+  width: 231px;
+  height: 94px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 45px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
 }
 .how-it-works-paragraph {
+  width: 385px;
+  height: 112px;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 }
 .how-it-works-button {
-  width: 100%;
-  max-width: 174px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 60px;
   margin-bottom: 60px;
   padding-left: 24px;
