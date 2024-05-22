@@ -52,6 +52,7 @@ img {
   /* MAIN-CONTENT */
 .main-content {
     flex-grow: 1;
+    margin-bottom: 30px;
     }
 
 /* HEADER  */
@@ -86,10 +87,9 @@ img {
 .hero {
   background-color: var(--fon-color);
   background-image: 
-  url(../img/alfred.png),
   url(../img/glass-of-cofee.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-position:left calc(50% + 50px) bottom calc(50% + 350px), left calc(50% + 410px) bottom;
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 410px) bottom;
 }
 .hero-container {
   height: 696px;
@@ -123,6 +123,13 @@ img {
   text-transform: uppercase;
   color: var(--white-color);
   background-color: #0A775F;
+}
+.hero-img{
+  width: 200px;
+  height: 200px;
+  margin-top: -70px;
+  margin-left: 40px;
+  /* margin-right: -20px; */
 }
 /* PROMO SECTION */
 .promo {
@@ -261,6 +268,7 @@ img {
 }
 .how-it-works-title {
   padding-top: 50px;
+  margin-top: 0;
   font-weight: 700;
   font-size: 50px;
   line-height: 59px;
@@ -352,11 +360,9 @@ img {
 /* HERO SECTION */
 .about-us-hero {
   background-color: var(--fon-color);
-  background-image: 
-  url(../img/alfred.png),
-  url(../img/coffee-maker.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-position:left calc(50% + 50px) bottom calc(50% + 300px), left calc(50% + 410px) bottom;
+  background-image: url(../img/coffee-maker.jpg);
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 410px) bottom;
 }
 .about-us-hero-container {
   height: 596px;
@@ -390,6 +396,113 @@ img {
   text-transform: uppercase;
   color: var(--white-color);
   background-color: #0A775F;
+}
+
+/* Commitment Section */
+.commitment-container {
+  width: 100%;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #f8f8f2;
+  display: flex;
+  background-image: url(../img/fon-leaf1.png);
+  background-repeat: no-repeat;
+  background-position: right calc(50% + 680px) top;
+}
+.commitment-img {
+  width: 360px;
+  height: 364px;
+  display: block;
+  margin-left: 165px;
+  margin-top: 160px;
+}
+.commitment-div {
+  margin-left: 185px;
+  margin-top: 160px;
+}
+.commitment-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  margin-bottom: 24px;
+}
+.commitment-paragraph {
+  width: 626px;
+  height: 300px;
+  margin-top: 0;
+  margin-bottom: 200px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* Commitment Section */
+.quality {
+  margin-top: 160px;
+  margin-bottom: 20px;
+}
+.quality-container {
+  height: 510px;
+  background-image: url(../img/fon-img.png);
+  background-position: right top;
+  background-color: var(--darck-fon);
+  display: flex;
+}
+.quality-div {
+  width: 639px;
+  margin-top: 100px;
+  margin-left: 143px;
+  margin-right: 38px;
+}
+.quality-title {
+  padding: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+}
+.quality-paragraph {
+  padding: 0;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+}
+.quality-img {
+  width: 550px;
+  height: 500px;
+  margin-top: -80px;
+}
+
+/* Headquarters section */
+.headquarters{
+  margin-top: 0;
+}
+.headquarters-container{
+  height: 685px;
+}
+.map-img{
+  display: block;
+  padding-top: 45px;
+  margin-left: 258px;
+}
+.headquarter-title{
+  margin-top: -50px;
+  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+.headquarter-title-1{
+  height: 47px;
+  margin-top: -6px;
+  margin-bottom: 20px;
+}
+.headquarters-paragraph{
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 /* FOOTER SECTION */
