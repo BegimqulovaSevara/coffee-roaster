@@ -85,6 +85,11 @@ img {
 /* HERO SECTION */
 .hero {
   background-color: var(--fon-color);
+  background-image: 
+  url(../img/alfred.png),
+  url(../img/glass-of-cofee.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position:left calc(50% + 50px) bottom calc(50% + 350px), left calc(50% + 410px) bottom;
 }
 .hero-container {
   height: 696px;
@@ -119,16 +124,15 @@ img {
   color: var(--white-color);
   background-color: #0A775F;
 }
-.hero-img{
-  width: 710px;
-  height: 696px;
-  padding: 0;
-  margin-left: 130px;
-  margin-right: -120px;
-}
 /* PROMO SECTION */
 .promo {
   background-color: var(--white-color);
+  background-image: 
+  /* url(../img/fon-leaf1.png),
+  url(../img/fon-leaf2.jpg),
+  url(../img/fon-leaf3.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left top, right center, left bottom; */
 }
 .promo-container {
   width: 100%;
@@ -138,6 +142,12 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #f8f8f2;
+  background-image: 
+  url(../img/fon-leaf1.png),
+  url(../img/fon-leaf2.png),
+  url(../img/fon-leaf3.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: right calc(50% + 650px) top, left calc(50% + 650px) center, right calc(50% + 650px) bottom;
 }
 .promo-title {
   margin-bottom: 80px;
@@ -336,6 +346,50 @@ img {
   text-decoration: none;
   color: var(--white-color);
   background-color: var(--darck-fon);
+}
+
+/* DECSTOP ABOUT US  */
+/* HERO SECTION */
+.about-us-hero {
+  background-color: var(--fon-color);
+  background-image: 
+  url(../img/alfred.png),
+  url(../img/coffee-maker.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position:left calc(50% + 50px) bottom calc(50% + 300px), left calc(50% + 410px) bottom;
+}
+.about-us-hero-container {
+  height: 596px;
+  display: flex;
+}
+.create-plan {
+  width: 464px;
+  height: 331px;
+  margin-top: 156px;
+  margin-left: 150px;
+}
+.create-plan-title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+}
+.creat-plan-paragraph {
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+.creat-plan-butoon {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border: 0;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: #0A775F;
 }
 
 /* FOOTER SECTION */
