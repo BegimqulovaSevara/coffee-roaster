@@ -239,6 +239,12 @@ img {
 .feature-list-item {
   margin-left: 0;
   padding: 0;
+  position: relative;
+}
+.feature-decoration-img{
+  position: absolute;
+  left: -42px;
+  top: -44px;
 }
 .feature-list-item:not(:last-child){
   margin-right: 20px;
@@ -261,10 +267,16 @@ img {
   margin-bottom: 50px;
 }
 .how-it-works-container{
+  position: relative;
   text-align: center;
   background-color: var(--green-fon);
   background-image: url(../img/fon-img.png);
   color: var(--white-color);
+}
+.how-it-works-decoration-img{
+  position: absolute;
+  top: 42px;
+  right: 68px;
 }
 .how-it-works-title {
   padding-top: 50px;
